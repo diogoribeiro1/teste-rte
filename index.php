@@ -8,12 +8,12 @@
 </head>
 <body>
 <div>
-    <button>Gravar</button>
-    <button>Ler</button>
+    <button class="enviarJsonPhp">Gravar</button>
+    <button class="buscarJsonPhp">Ler</button>
 </div>
 <label>Nome</label>
 <input id="nome" name="nome" type="text">
-<button onclick="incluirPessoa()">incluir</button>
+<button id="incluirButton">incluir</button>
 <br><br>
 <div>
     <table border="1">
@@ -28,10 +28,11 @@
 </div>
 <br>
 <div>
-<textarea id="textAreaJson">
+<textarea id="textjson">
 
 </textarea>
 </div>
-<script src="script.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="js/script.js"></script>
 </body>
 </html>
